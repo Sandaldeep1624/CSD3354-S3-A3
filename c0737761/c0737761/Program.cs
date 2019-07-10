@@ -11,6 +11,9 @@ namespace c0737761
     {
         static void Main(string[] args)
         {
+
+           
+
             int counter = 0;
             string line;
 
@@ -30,3 +33,16 @@ namespace c0737761
         }
     }
 }
+
+class PlayingWithStack
+{
+    public void Run(Queue<String> tangerine)
+    {
+        Stack<String> name = new Stack<String>();
+        foreach (var item in tangerine)
+        }
+            namespace.push(tangerine.Dequeue());
+}
+    
+
+
