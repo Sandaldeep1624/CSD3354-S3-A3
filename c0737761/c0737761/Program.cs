@@ -1,11 +1,12 @@
 ﻿using System;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Collections;
 
 namespace c0737761
+  
 {
     class Program
     {
@@ -34,15 +35,33 @@ namespace c0737761
     }
 }
 
-class PlayingWithStack
+
+
+class stack
+{ 
+static void Main(string[] args)
 {
-    public void Run(Queue<String> tangerine)
+
+        
+        Stack myStack = new Stack();
+        myStack.Push("Hello");
+        myStack.Push("World");
+        myStack.Push("!");
+
+      
+        Console.WriteLine("myStack");
+        Console.WriteLine("\tCount:    {0}", myStack.Count);
+        Console.Write("\tValues:");
+    Console.Write(myStack);
+    }
+
+    public static void PrintValues(IEnumerable myCollection)
     {
-        Stack<String> name = new Stack<String>();
-        foreach (var item in tangerine)
-        }
-            namespace.push(tangerine.Dequeue());
+        foreach (Object obj in myCollection)
+            Console.Write("    {0}", obj);
+        Console.WriteLine();
+    }
+
 }
-    
 
 
